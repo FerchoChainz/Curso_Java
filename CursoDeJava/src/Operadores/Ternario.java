@@ -1,0 +1,15 @@
+
+package Operadores;
+
+public class Ternario {
+    
+    public static void main(String[] args) {
+        
+        var resultado = ( 3 > 2) ? "Verdadero" :"Falso" ;
+        System.out.println("resultado = " + resultado);
+        
+        var numero = 8;
+        resultado = (numero % 2 == 0) ? "Es par" : "Es impar";
+        System.out.println("resultado = " + resultado);
+    }  
+}
